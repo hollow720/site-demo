@@ -1,0 +1,156 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font:15px/1.5 Trebuchet MS, sans-serif;
+	background-color:#f6eada;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	padding:0;
+	margin:0;
+}
+
+header{
+	background:#b76e41;
+	color:#000;
+	padding:20px 0;
+	min-height:100px;
+	text-align:center;
+	padding-left:45px;
+
+}
+
+header .container{
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header h1{
+	margin:0;
+	font-size:40px;
+}
+
+header .highlight{
+	text-decoration:underline 2px solid;
+	text-underline-offset:2px;	
+}
+
+header .highlight:hover{
+	color:#fa002f;
+}
+
+img{
+	height:90px;
+	width:auto;
+}
+
+
+
+section{
+	flex-grow:1;
+}
+
+
+.recipe{
+	padding-top:25px;
+}
+
+.list1 ol{
+	margin-top:20px;
+	font-size:18px;
+	list-style-position: outside;
+	text-align: left;
+}
+
+.list1{
+	display:flex;
+	justify-content:center;
+}
+
+.list1 ol a:visited{
+	color:#b76e41;
+}
+
+.list1 ol a:hover{
+	font-weight:bold;
+	color:#fa002f;
+	text-decoration-color:#fa002f;
+}
+
+.time{
+	margin-top:20px;
+}
+
+.time li{
+	font-weight:bold;
+	font-size:16px;
+}
+
+
+#ingredients h2, #instructions h2, #proceedings h2{
+	text-align:center;
+	font-size:30px;
+	padding-bottom:25px;
+	padding-top:10px;
+}
+
+#ingredients h3, #instructions h3, #proceedings h3{
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+#ingredients ul{
+	list-style:none;
+	list-style-image:url('../img/herb.png');
+	list-style-position:inside;
+}
+
+#ingredients ul li{
+	padding-bottom:3px;
+}
+
+#instructions ol{
+	list-style:none;
+	list-style-image:url('../img/tbsp.png');
+	list-style-position:inside;
+}
+
+#ingredients .container img{
+	float:right;
+	width:45%;
+	height:450px;
+}
+
+#ingredients{
+	float:left;
+	margin:30px 0;
+	padding-top:35px;
+}
+
+#ingredients .near-image{
+	margin-top:72.5px;
+}
+
+footer{
+
+	padding:20px;
+	margin:0;
+	margin-top:20px;
+	color:#000;
+	background-color:#b76e41;
+	text-align:center;
+	font-size:16px;
+}
